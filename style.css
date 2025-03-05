@@ -1,0 +1,55 @@
+
+body header{
+    height:70px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    margin-top:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+body header img{
+ margin: 0px;   
+ 
+}
+header nav{
+    float:right;
+    font-weight: bold;
+    font-size: small;
+    color:blue;
+    cursor: pointer;
+    border-radius: 5px;
+    word-spacing:50px ;
+    
+}
+header nav a:hover{
+background-color:whitesmoke;
+border-radius: 5px;
+}
+div{
+    text-align: center;
+    width:75%;
+    margin:auto;
+    border:2px solid;
+}
+span{
+    font-style: italic;
+    color:deeppink;
+}
+p{
+ width:75%;
+ margin:auto;
+ }
+img{
+    margin: auto;
+}
+blockquote{
+    color:crimson;
+}
+body footer{
+    background-color: lightcoral;
+    color: black;
+    font-size: small;
+    text-align: center;
+}
