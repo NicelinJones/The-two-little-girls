@@ -53,3 +53,102 @@ body footer{
     font-size: small;
     text-align: center;
 }
+@media only screen and (max-width:320px){
+    div{
+        width: 100%;
+     }
+     
+    div img{
+    height:100px;
+    width:150px;
+}
+div p{
+    font-size:smaller ;
+
+}
+div blockquote{
+    font-size:smaller ;
+
+}
+
+}
+
+@media only screen and (min-width: 321px) and (max-width:480px) {
+    div{
+        width:90%;
+    }
+    div img{
+        height:100px;
+        width:150px;
+    }
+       div p{ font-size:small ;
+    
+    }
+    div blockquote{
+        font-size:small;
+    
+    }
+    
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    div img{
+        height:200px;
+        width:300px;
+    }
+    div p{
+        font-size:medium;
+    
+    }
+    div blockquote{
+        font-size:medium;
+    
+    }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    div img{
+        height:300px;
+        width:400px;
+    }    
+    div p{
+        font-size:medium;    
+    }
+    div blockquote{
+        font-size:medium ;
+    
+    }
+}
+
+/* Media Query for Laptops and Desktops */
+@media only screen and (min-width: 1025px) and (max-width: 1280px) {
+    div img{
+        height:400px;
+        width:500px;
+    }    
+    div p{
+        font-size:large;
+    
+    }
+    div blockquote{
+        font-size:large;
+    
+    }
+}
+
+/* Media Query for Large screens */
+@media only screen and (min-width: 1281px) {
+    div img{
+        height:400px;
+        width:500px;
+    } 
+    div p{
+        font-size:large;    
+    }
+    div blockquote{
+         font-size:large;
+    
+    }
+}   
