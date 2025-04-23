@@ -9,6 +9,19 @@ body header{
     flex-direction: row;
     justify-content: space-between;
 }
+header{
+    background-image: url("./wavypink.jpg");
+    height: 70px;
+    display:flex;
+    align-items: center;
+    margin-top:0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    
+
+}
 body header img{
  margin: 0px;   
  
