@@ -44,6 +44,17 @@ p{
 img{
     margin: auto;
 }
+h3{
+    text-align: center;
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bold;
+}
+audio{
+    margin: 400px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 blockquote{
     color:crimson;
 }
